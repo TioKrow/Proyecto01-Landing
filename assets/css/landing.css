@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (min-width:320px) and (max-width:425px) {
+    nav {
+        background-color: #37515F;
+    }
+
+    .navbar-toggler{
+        border: none;
+    }
+
+    .navbar-toggler:hover{
+        border: none;
+    }
+
+    img {
+        width: 3rem;
+    }
+
+    .hr-navbar {
+        color: white;
+    }
+
+    a.nav-link {
+        color: white;
+    }
+
+    span a.nav-link {
+        padding-bottom: 1rem;
+    }
+
+    .jumbotron {
+        padding: 1rem 1rem;
+        background-color: grey;
+    }
+    .jumbotron h1 {
+        font-weight:400;
+    }
+    .imagen-jumbo img {
+        width: 22rem;
+        padding-bottom: 1rem ;
+        border-radius: 10px;
+    }
+    .publicidad-jumbo{
+        font-size: 0.8rem ;
+    }
+    .boton-sub a{
+        border-radius: 10px;
+        background-color: #D96725;
+    }
+
+}
