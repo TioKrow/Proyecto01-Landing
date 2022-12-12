@@ -32,14 +32,16 @@
     }
 
     .jumbotron {
-        padding: 1rem 1rem;
-        background-color: grey;
+        padding: 1rem;
+        background-color: #37515F;
     }
     .jumbotron h1 {
         font-weight:400;
     }
     .imagen-jumbo img {
-        width: 22rem;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
         padding-bottom: 1rem ;
         border-radius: 10px;
     }
@@ -47,8 +49,56 @@
         font-size: 0.8rem ;
     }
     .boton-sub a{
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
         border-radius: 10px;
         background-color: #D96725;
+        color: white;
+    }
+
+    section.blog {
+        background-color: grey;
+        padding-top: 1rem;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+    .blog h2{
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .carousel{
+        margin: 0px;
+        padding: 1rem;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .adicionales h2{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 10px;
+    }
+
+    .card a.btn {
+        background-color: #D96725;
+        border-color:#D96725 ;
+
     }
 
 }
